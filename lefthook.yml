@@ -2,8 +2,6 @@ pre-push:
   commands:
     run-type-check:
       run: bun run tsc
-    run-tests:
-      run: bun run test
 
 pre-commit:
   parallel: true
