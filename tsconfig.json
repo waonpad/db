@@ -23,10 +23,6 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false,
-
-    "paths": {
-      "@/*": ["./src/*"]
-    }
   },
-  "include": ["src"]
+  "include": ["scripts", "src", "drizzle.config.ts", "connections.config.ts"],
 }
